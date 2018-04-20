@@ -1,0 +1,9 @@
+C:\workspace\RanorexProjects\RanorexSandpit\RanorexPOC\RanorexPOC\bin\Debug\RanorexPOC.rxtmg
+C:\workspace\RanorexProjects\RanorexSandpit\RanorexPOC\RanorexPOC\bin\Debug\RanorexPOC.rxtst
+C:\workspace\RanorexProjects\RanorexSandpit\RanorexPOC\RanorexPOC\bin\Debug\RanorexPOC.exe.config
+C:\workspace\RanorexProjects\RanorexSandpit\RanorexPOC\RanorexPOC\bin\Debug\RanorexPOC.exe
+C:\workspace\RanorexProjects\RanorexSandpit\RanorexPOC\RanorexPOC\bin\Debug\RanorexPOC.pdb
+C:\workspace\RanorexProjects\RanorexSandpit\RanorexPOC\RanorexPOC\bin\Debug\Ranorex.Core.Resolver.dll
+C:\workspace\RanorexProjects\RanorexSandpit\RanorexPOC\RanorexPOC\obj\x86\Debug\RanorexPOC.csprojResolveAssemblyReference.cache
+C:\workspace\RanorexProjects\RanorexSandpit\RanorexPOC\RanorexPOC\obj\x86\Debug\RanorexPOC.exe
+C:\workspace\RanorexProjects\RanorexSandpit\RanorexPOC\RanorexPOC\obj\x86\Debug\RanorexPOC.pdb
