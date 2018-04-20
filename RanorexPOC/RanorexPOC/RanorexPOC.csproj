@@ -122,15 +122,15 @@
       <RepositoryCode>true</RepositoryCode>
       <id>5e818abb-b118-4d09-a006-60d860cedac4</id>
     </Compile>
-    <Compile Include="Recording1.cs">
+    <Compile Include="ContactUs.cs">
       <BoundTo>345fd44d-6196-4c0a-bec4-6382a0d615f1</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>ContactUs.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>c2889def-8fe2-4743-8610-1192c201cb38</id>
     </Compile>
-    <Compile Include="Recording1.UserCode.cs">
+    <Compile Include="ContactUs.UserCode.cs">
       <BoundTo>345fd44d-6196-4c0a-bec4-6382a0d615f1</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>ContactUs.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>69f9a183-dcdb-43f9-9953-e57bbc906ff7</id>
     </Compile>
@@ -150,7 +150,7 @@
       <repoid>fac849a4-5767-452d-9d44-32451bc5b3d0</repoid>
       <reporootid>d2e422e7-0921-4e37-bc3e-ebb3d763a238</reporootid>
     </None>
-    <None Include="Recording1.rxrec">
+    <None Include="ContactUs.rxrec">
       <BoundTo>a6de4e88-1cc3-4a5f-b26b-f9fb284d0b43</BoundTo>
       <id>345fd44d-6196-4c0a-bec4-6382a0d615f1</id>
       <recordtableid>ab4e3069-16f4-468f-8f6b-1cbec6b39402</recordtableid>

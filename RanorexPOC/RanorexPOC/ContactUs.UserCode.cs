@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace RanorexPOC
 {
-    public partial class Recording1
+    public partial class ContactUs
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

@@ -27,6 +27,8 @@ namespace RanorexPOC
     public partial class RanorexPOCRepository : RepoGenBaseFolder
     {
         static RanorexPOCRepository instance = new RanorexPOCRepository();
+        RanorexPOCRepositoryFolders.PlanitSoftwareTestingDigitalSolutAppFolder _planitsoftwaretestingdigitalsolut;
+        RanorexPOCRepositoryFolders.PlanitContactPlanitTheLeadersInAppFolder _planitcontactplanittheleadersin;
 
         /// <summary>
         /// Gets the singleton class instance representing the RanorexPOCRepository element repository.
@@ -43,6 +45,8 @@ namespace RanorexPOC
         public RanorexPOCRepository() 
             : base("RanorexPOCRepository", "/", null, 0, false, "d2e422e7-0921-4e37-bc3e-ebb3d763a238", ".\\RepositoryImages\\RanorexPOCRepositoryd2e422e7.rximgres")
         {
+            _planitsoftwaretestingdigitalsolut = new RanorexPOCRepositoryFolders.PlanitSoftwareTestingDigitalSolutAppFolder(this);
+            _planitcontactplanittheleadersin = new RanorexPOCRepositoryFolders.PlanitContactPlanitTheLeadersInAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +64,24 @@ namespace RanorexPOC
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The PlanitSoftwareTestingDigitalSolut folder.
+        /// </summary>
+        [RepositoryFolder("ef7a7280-9ef7-4ffc-9233-90fc88cf8479")]
+        public virtual RanorexPOCRepositoryFolders.PlanitSoftwareTestingDigitalSolutAppFolder PlanitSoftwareTestingDigitalSolut
+        {
+            get { return _planitsoftwaretestingdigitalsolut; }
+        }
+
+        /// <summary>
+        /// The PlanitContactPlanitTheLeadersIn folder.
+        /// </summary>
+        [RepositoryFolder("e8c3bdc4-6d27-4daa-9cab-02f7adb10dc1")]
+        public virtual RanorexPOCRepositoryFolders.PlanitContactPlanitTheLeadersInAppFolder PlanitContactPlanitTheLeadersIn
+        {
+            get { return _planitcontactplanittheleadersin; }
+        }
     }
 
     /// <summary>
@@ -68,6 +90,242 @@ namespace RanorexPOC
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
     public partial class RanorexPOCRepositoryFolders
     {
+        /// <summary>
+        /// The PlanitSoftwareTestingDigitalSolutAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("ef7a7280-9ef7-4ffc-9233-90fc88cf8479")]
+        public partial class PlanitSoftwareTestingDigitalSolutAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _contactusInfo;
+            RepoItemInfo _pltctl06pageplaceholderpltctl01coInfo;
+            RepoItemInfo _pltctl06pageplaceholderpltctl01co1Info;
+            RepoItemInfo _pltctl06pageplaceholderpltctl01co2Info;
+            RepoItemInfo _pltctl06pageplaceholderpltctl01co3Info;
+
+            /// <summary>
+            /// Creates a new PlanitSoftwareTestingDigitalSolut  folder.
+            /// </summary>
+            public PlanitSoftwareTestingDigitalSolutAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("PlanitSoftwareTestingDigitalSolut", "/dom[@domain='www.planittesting.com']", parentFolder, 30000, null, false, "ef7a7280-9ef7-4ffc-9233-90fc88cf8479", "")
+            {
+                _contactusInfo = new RepoItemInfo(this, "ContactUs", ".//form[#'form']/section/header//span/span/a[@innertext='Contact Us']", 30000, null, "f4877a4d-7e23-48d8-9461-00578003dd8e");
+                _pltctl06pageplaceholderpltctl01coInfo = new RepoItemInfo(this, "PLtCtl06PageplaceholderPLtCtl01Co", ".//input[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_FirstName_txtText']", 30000, null, "5098bc92-1666-4620-95c1-6f5183b404b1");
+                _pltctl06pageplaceholderpltctl01co1Info = new RepoItemInfo(this, "PLtCtl06PageplaceholderPLtCtl01Co1", ".//input[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_LastName_txtText']", 30000, null, "2718cf88-b6b3-4a15-bd44-ae1627a1938f");
+                _pltctl06pageplaceholderpltctl01co2Info = new RepoItemInfo(this, "PLtCtl06PageplaceholderPLtCtl01Co2", ".//input[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_btnOK']", 30000, null, "70eb9bec-febb-488d-a6ab-0806484d1d7d");
+                _pltctl06pageplaceholderpltctl01co3Info = new RepoItemInfo(this, "PLtCtl06PageplaceholderPLtCtl01Co3", ".//span[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_State_lbe']", 30000, null, "5e65d66f-c260-4ec9-a200-972a371aee90");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ef7a7280-9ef7-4ffc-9233-90fc88cf8479")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ef7a7280-9ef7-4ffc-9233-90fc88cf8479")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ContactUs item.
+            /// </summary>
+            [RepositoryItem("f4877a4d-7e23-48d8-9461-00578003dd8e")]
+            public virtual Ranorex.ATag ContactUs
+            {
+                get
+                {
+                    return _contactusInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContactUs item info.
+            /// </summary>
+            [RepositoryItemInfo("f4877a4d-7e23-48d8-9461-00578003dd8e")]
+            public virtual RepoItemInfo ContactUsInfo
+            {
+                get
+                {
+                    return _contactusInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PLtCtl06PageplaceholderPLtCtl01Co item.
+            /// </summary>
+            [RepositoryItem("5098bc92-1666-4620-95c1-6f5183b404b1")]
+            public virtual Ranorex.InputTag PLtCtl06PageplaceholderPLtCtl01Co
+            {
+                get
+                {
+                    return _pltctl06pageplaceholderpltctl01coInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PLtCtl06PageplaceholderPLtCtl01Co item info.
+            /// </summary>
+            [RepositoryItemInfo("5098bc92-1666-4620-95c1-6f5183b404b1")]
+            public virtual RepoItemInfo PLtCtl06PageplaceholderPLtCtl01CoInfo
+            {
+                get
+                {
+                    return _pltctl06pageplaceholderpltctl01coInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PLtCtl06PageplaceholderPLtCtl01Co1 item.
+            /// </summary>
+            [RepositoryItem("2718cf88-b6b3-4a15-bd44-ae1627a1938f")]
+            public virtual Ranorex.InputTag PLtCtl06PageplaceholderPLtCtl01Co1
+            {
+                get
+                {
+                    return _pltctl06pageplaceholderpltctl01co1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PLtCtl06PageplaceholderPLtCtl01Co1 item info.
+            /// </summary>
+            [RepositoryItemInfo("2718cf88-b6b3-4a15-bd44-ae1627a1938f")]
+            public virtual RepoItemInfo PLtCtl06PageplaceholderPLtCtl01Co1Info
+            {
+                get
+                {
+                    return _pltctl06pageplaceholderpltctl01co1Info;
+                }
+            }
+
+            /// <summary>
+            /// The PLtCtl06PageplaceholderPLtCtl01Co2 item.
+            /// </summary>
+            [RepositoryItem("70eb9bec-febb-488d-a6ab-0806484d1d7d")]
+            public virtual Ranorex.InputTag PLtCtl06PageplaceholderPLtCtl01Co2
+            {
+                get
+                {
+                    return _pltctl06pageplaceholderpltctl01co2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PLtCtl06PageplaceholderPLtCtl01Co2 item info.
+            /// </summary>
+            [RepositoryItemInfo("70eb9bec-febb-488d-a6ab-0806484d1d7d")]
+            public virtual RepoItemInfo PLtCtl06PageplaceholderPLtCtl01Co2Info
+            {
+                get
+                {
+                    return _pltctl06pageplaceholderpltctl01co2Info;
+                }
+            }
+
+            /// <summary>
+            /// The PLtCtl06PageplaceholderPLtCtl01Co3 item.
+            /// </summary>
+            [RepositoryItem("5e65d66f-c260-4ec9-a200-972a371aee90")]
+            public virtual Ranorex.SpanTag PLtCtl06PageplaceholderPLtCtl01Co3
+            {
+                get
+                {
+                    return _pltctl06pageplaceholderpltctl01co3Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PLtCtl06PageplaceholderPLtCtl01Co3 item info.
+            /// </summary>
+            [RepositoryItemInfo("5e65d66f-c260-4ec9-a200-972a371aee90")]
+            public virtual RepoItemInfo PLtCtl06PageplaceholderPLtCtl01Co3Info
+            {
+                get
+                {
+                    return _pltctl06pageplaceholderpltctl01co3Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The PlanitContactPlanitTheLeadersInAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("e8c3bdc4-6d27-4daa-9cab-02f7adb10dc1")]
+        public partial class PlanitContactPlanitTheLeadersInAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _clientInfo;
+
+            /// <summary>
+            /// Creates a new PlanitContactPlanitTheLeadersIn  folder.
+            /// </summary>
+            public PlanitContactPlanitTheLeadersInAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("PlanitContactPlanitTheLeadersIn", "/form[@title~'^Planit\\ -\\ Contact\\ Planit:\\ ']", parentFolder, 30000, null, true, "e8c3bdc4-6d27-4daa-9cab-02f7adb10dc1", "")
+            {
+                _clientInfo = new RepoItemInfo(this, "Client", "container[@accessiblename='Google Chrome']/container[2]/container[2]", 30000, null, "1a0e5065-29ad-460f-9fbd-ce97f0c5f5bb");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e8c3bdc4-6d27-4daa-9cab-02f7adb10dc1")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e8c3bdc4-6d27-4daa-9cab-02f7adb10dc1")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Client item.
+            /// </summary>
+            [RepositoryItem("1a0e5065-29ad-460f-9fbd-ce97f0c5f5bb")]
+            public virtual Ranorex.Container Client
+            {
+                get
+                {
+                    return _clientInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Client item info.
+            /// </summary>
+            [RepositoryItemInfo("1a0e5065-29ad-460f-9fbd-ce97f0c5f5bb")]
+            public virtual RepoItemInfo ClientInfo
+            {
+                get
+                {
+                    return _clientInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

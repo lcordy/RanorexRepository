@@ -1,19 +1,138 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="RanorexPOCRepository"
+﻿<repository
 id="fac849a4-5767-452d-9d44-32451bc5b3d0"
+name="RanorexPOCRepository"
 rxversion="8.1">
-  <codegen
-  classname="RanorexPOCRepository"
-  namespace="RanorexPOC"/>
-  <rootfolder
-  name="Root"
-  id="d2e422e7-0921-4e37-bc3e-ebb3d763a238"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-    <basepath/>
-  </rootfolder>
-  <variables/>
+	<codegen
+	classname="RanorexPOCRepository"
+	namespace="RanorexPOC">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d2e422e7-0921-4e37-bc3e-ebb3d763a238"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ef7a7280-9ef7-4ffc-9233-90fc88cf8479"
+		isrooted="True"
+		name="PlanitSoftwareTestingDigitalSolut"
+		refpath="/dom[@domain='www.planittesting.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f4877a4d-7e23-48d8-9461-00578003dd8e"
+			name="ContactUs"
+			refimgid="f150b948-42f2-457f-b8e7-3f04d170d28c"
+			refpath="/dom[@domain='www.planittesting.com']//form[#'form']/section/header/div[1]/div/div[2]/span/span/a[@innertext='Contact Us']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.planittesting.com']//form[#'form']/section/header//span/span/a[@innertext='Contact Us']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5098bc92-1666-4620-95c1-6f5183b404b1"
+			name="PLtCtl06PageplaceholderPLtCtl01Co"
+			refimgid="9f0c4fda-e4ad-4e08-b681-64598aca344f"
+			refpath="/dom[@domain='www.planittesting.com']//input[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_FirstName_txtText']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.planittesting.com']//input[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_FirstName_txtText']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2718cf88-b6b3-4a15-bd44-ae1627a1938f"
+			name="PLtCtl06PageplaceholderPLtCtl01Co1"
+			refimgid="cfc3221e-9621-416b-88d2-6d390cfa6fab"
+			refpath="/dom[@domain='www.planittesting.com']//input[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_LastName_txtText']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.planittesting.com']//input[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_LastName_txtText']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="70eb9bec-febb-488d-a6ab-0806484d1d7d"
+			name="PLtCtl06PageplaceholderPLtCtl01Co2"
+			refimgid="3137e1e5-7c4b-421e-ab98-19a1c8d9b944"
+			refpath="/dom[@domain='www.planittesting.com']//input[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_btnOK']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.planittesting.com']//input[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_btnOK']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5e65d66f-c260-4ec9-a200-972a371aee90"
+			name="PLtCtl06PageplaceholderPLtCtl01Co3"
+			refimgid="18d9b546-2683-4e76-a676-281b8a723726"
+			refpath="/dom[@domain='www.planittesting.com']//span[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_State_lbe']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.planittesting.com']//span[#'p_lt_ctl06_pageplaceholder_p_lt_ctl01_ContactForm_viewBiz_State_lbe']
+			</item>
+			<basepath>
+				/dom[@domain='www.planittesting.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e8c3bdc4-6d27-4daa-9cab-02f7adb10dc1"
+		isrooted="True"
+		name="PlanitContactPlanitTheLeadersIn"
+		refpath="/form[@title='Planit - Contact Planit: The Leaders in Quality Engineering - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="1a0e5065-29ad-460f-9fbd-ce97f0c5f5bb"
+			name="Client"
+			refimgid="8f73e4ea-d243-4048-a483-bed26d8ba387"
+			refpath="/form[@title~'^Planit\ -\ Contact\ Planit:\ ']/container/container[2]/container[2]"
+			searchtimeout="30000ms">
+				/form[@title~'^Planit\ -\ Contact\ Planit:\ ']/container[@accessiblename='Google Chrome']/container[2]/container[2]
+			</item>
+			<basepath>
+				/form[@title~'^Planit\ -\ Contact\ Planit:\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>
