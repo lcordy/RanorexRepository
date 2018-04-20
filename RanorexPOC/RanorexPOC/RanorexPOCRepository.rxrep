@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="RanorexPOCRepository"
+id="fac849a4-5767-452d-9d44-32451bc5b3d0"
+rxversion="8.1">
+  <codegen
+  classname="RanorexPOCRepository"
+  namespace="RanorexPOC"/>
+  <rootfolder
+  name="Root"
+  id="d2e422e7-0921-4e37-bc3e-ebb3d763a238"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>
